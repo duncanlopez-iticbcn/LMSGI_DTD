@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg_musica SYSTEM "5.dtd">
+<cataleg_musica>
+    <llista_artistes>
+        <artista id="a01"><nom>Bass Drum of Death</nom><pais>Misisipi</pais><genere>Punk Rock</genere></artista>
+        <artista id="a02"><nom>Jay Reatard</nom><pais>United States</pais><genere>Garage Punk</genere></artista>
+        <artista id="a03"><nom>WAVVES</nom><pais>California</pais><genere>Post‑Punk</genere></artista>
+    </llista_artistes>
+
+    <llista_albumes>
+        <album id="al01"><titol>Bass Drum of Death</titol><any>2019</any><artistes><artista_ref ref="a01"/></artistes></album>
+        <album id="al02"><titol>GB City</titol><any>2020</any><artistes><artista_ref ref="a01"/></artistes></album>
+        <album id="al03"><titol>Blood Visions</titol><any>2006</any><artistes><artista_ref ref="a02"/><artista_ref ref="a03"/></artistes></album>
+    </llista_albumes>
+
+    <llista_recomanacions_albumes>
+        <recomanacio ref="al01"/>
+        <recomanacio ref="al02"/>
+    </llista_recomanacions_albumes>
+</cataleg_musica>
