@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+
+<cataleg>
+
+    <llista_actors>
+
+        <actor id="a1">
+            <nom>Vincent Gallo</nom>
+            <edat>62</edat>
+        </actor>
+
+        <actor id="a2">
+            <nom>Christina Ricci</nom>
+        </actor>
+
+        <actor id="a3">
+            <nom>Brad Pitt</nom>
+            <edat>60</edat>
+        </actor>
+
+        <actor id="a4">
+            <nom>Edward Norton</nom>
+            <edat>54</edat>
+        </actor>
+
+        <actor id="a5">
+            <nom>Tom Hanks</nom>
+            <edat>67</edat>
+        </actor>
+
+        <actor id="a6">
+            <nom>Robin Wright</nom>
+        </actor>
+
+    </llista_actors>
+
+    <llista_pelicules>
+
+        <pelicula id="p1">
+            <titol idioma="en">Buffalo '66</titol>
+            <director>Vincent Gallo</director>
+            <any>1998</any>
+            <actors>
+                <actor_ref ref="a1"/>
+                <actor_ref ref="a2"/>
+            </actors>
+        </pelicula>
+
+        <pelicula id="p2">
+            <titol idioma="en">Fight Club</titol>
+            <director>David Fincher</director>
+            <any>1999</any>
+            <actors>
+                <actor_ref ref="a3"/>
+                <actor_ref ref="a4"/>
+            </actors>
+        </pelicula>
+
+        <pelicula id="p3">
+            <titol idioma="en">Forrest Gump</titol>
+            <director>Robert Zemeckis</director>
+            <any>1994</any>
+            <actors>
+                <actor_ref ref="a5"/>
+                <actor_ref ref="a6"/>
+            </actors>
+        </pelicula>
+
+    </llista_pelicules>
